@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User registration</title>
+</head>
+<body>
+    <a href="/">Home</a>
+
+    <h1>User Registration</h1>
+    <hr>
+
+    <!-- http://127.0.0.1:5500/form.html -->
+
+    <form action="" method="get" enctype="">
+        <p>
+            <label>User Name:</label>
+            <input type="text" required>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" required name="email">
+            </p>
+            <p>
+                <label>Phone</label>
+                <input type="number" required name="phone">
+            </p>
+            <p>
+                <label>Password</label>
+                <input type="password" required name="password">
+
+                </div>
+            </p>
+            <p>
+                <label>LinkedIn</label>
+                <input type="url">
+            </p>
+            <p>
+                <label>DOB</label>
+                <input type="date" required>
+            </p>
+            <p>
+                <label>Message</label> <br />
+                <textarea cols="10" rows="5"></textarea>
+            </p>
+
+            <!-- file send -->
+            <p>
+                <label>Upload Resume</label>
+                <input type="file" multiple />
+            </p>
+
+            <!-- radio button -->
+             <p>
+                <label for="">Gender</label>
+                <input name="gender" type="radio" /> <label>Male</label>
+                <input name="gender" type="radio" /> <label>Female</label>
+                <input name="gender"  type="radio"/> <label>N/A</label>
+
+             </p>
+
+             <!-- checkbox -->
+              <label for="">What do you want to learn?</label> <br>
+             <input type="checkbox"> <label for="">HTML</label> <br>
+             <input type="checkbox"> <label for="">CSS</label> <br>
+             <input type="checkbox"> <label for="">Javascript</label>
+              <hr>
+             <input type="checkbox" name="" id="">
+             <label for="">I accept the T&Cs</label>
+            
+             <!-- drop down select  -->
+              <p>
+                <label for="">Fruit list</label>
+                <select name="" id="" multiple>
+                    <option value="">--select--</option>
+                    <option value="">Apple</option>
+                    <option value="">Banana</option>
+                    <option value="">Carrot</option>
+                    <option value="">Dragon Fruit</option>
+                </select>
+              </p>
+              <p>
+                <label for="">Fruit and Veg list</label>
+                <select name="" id="">
+                <optgroup label="fruits">
+                    <option value="">Apple</option>
+                    <option value="">Banana</option>
+                    <option value="">Orange</option>
+                    <option value="">Dragon Fruit</option>
+                </optgroup>
+                <optgroup label="Vegi">
+                    <option value="">Radish</option>
+                    <option value="">Carrot</option>
+                    <option value="">Letuce</option>
+                    <option value="">Ice-Berg</option>
+                </optgroup>
+               </select>
+            </p>
+
+            <!-- data list -->
+             <label for="">Fruit and Veg list</label>
+
+             <input type="text" list="linked" />
+
+             <datalist id="linked">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Orange">Orange</option>
+                <option value="Dragon Fruit">Dragon Fruit</option>
+                <option value="Carrot">Carrot</option>
+                <option value="Letuce">Letuce</option>
+                <option value="Ice-Berg">Ice-Berg</option>
+            </datalist>
+        
+             <p>
+              <button>Submit</button>
+            </p>
+        
+    </form>
+</body>
+</html>
